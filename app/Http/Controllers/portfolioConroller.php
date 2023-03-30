@@ -26,8 +26,8 @@ public function portfolio()
    return view('port.portfolio');
 }
 
-public function contactForm()
+public function contactForm(Request $request)
 {
-    return "done";
+    dd($request->all());
 }
 }
